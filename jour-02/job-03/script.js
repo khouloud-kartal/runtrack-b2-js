@@ -22,7 +22,7 @@ function myClearText(){
     textDisplayer.removeAttribute("style");
 }
 
-input.addEventListener('keyup', myDisplayText);
+input.addEventListener('input', myDisplayText);
 bold.addEventListener('click', myTurnBold);
 italic.addEventListener('click', myTurnItalic);
 clear.addEventListener('click', myClearText);
